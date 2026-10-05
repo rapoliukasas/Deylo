@@ -4,9 +4,15 @@
 
 Deylo is a native macOS workspace launcher. Save the apps, websites, Spotify playlist, and window positions you use together, then launch the setup from the app or menu bar.
 
+## Documentation
+
+Start with the [complete documentation](docs/README.md). It includes the [user guide](docs/UserGuide.md), [integrations and permissions](docs/Integrations.md), [troubleshooting](docs/Troubleshooting.md), [data and backup reference](docs/DataReference.md), [development and architecture](docs/Development.md), [testing](docs/Testing.md), and [commerce setup](docs/Commerce.md).
+
+The current project targets macOS 27.0. It is a desktop utility build with App Sandbox disabled; public distribution and live commerce require the owner steps described in the documentation.
+
 ## Free and Pro
 
-The existing app remains free: unlimited workspaces, app and website launching, connected Spotify playlist selection, optional autoplay, automatic window placement, recorded layouts, workspace renaming and duplication, and app reordering.
+The existing app remains free: unlimited workspaces, app and website launching, connected Spotify playlist selection, optional autoplay, iTerm commands, automatic window placement, recorded layouts, workspace renaming and duplication, and app reordering.
 
 Deylo Pro adds three features through a single non-consumable purchase:
 
@@ -17,6 +23,8 @@ Deylo Pro adds three features through a single non-consumable purchase:
 Removing a schedule, turning an ordered launch off, and clearing a delay remain available without Pro. Without verified ownership, saved Pro schedules do not run and manual workspace launches use the normal concurrent behavior.
 
 ## Development
+
+The build and test instructions apply to the full source workspace. This repository currently contains the documentation, StoreKit configuration, and zipped Xcode project metadata; its Swift application and test source directories are not yet included. See [development setup](docs/Development.md).
 
 Open `macapp.xcodeproj` and run the `macapp` scheme. The built application is named Deylo. Its existing bundle identifier and Spotify callback identity are preserved so current workspace files and account connections remain associated with the same app.
 

@@ -1,0 +1,41 @@
+{
+  "format": "deylo.workspace",
+  "version": 1,
+  "workspace": {
+    "id": "48312234-8FF5-4AF8-8CDC-9374AB101764",
+    "name": "Focus Example",
+    "apps": [
+      {
+        "id": "48455BDC-A5FC-4E2D-901F-2412E7074186",
+        "name": "Visual Studio Code",
+        "bundleId": "com.microsoft.VSCode",
+        "windowPlacement": "rightHalf",
+        "launchDelaySeconds": 0
+      },
+      {
+        "id": "A2CBD879-A74F-4608-A085-8326A337F9A8",
+        "name": "Safari",
+        "bundleId": "com.apple.Safari",
+        "url": "http://localhost:3000",
+        "windowPlacement": "leftHalf",
+        "launchDelaySeconds": 3
+      },
+      {
+        "id": "D367CA5E-2B7F-40B9-8335-369A6BF719D7",
+        "name": "Spotify",
+        "bundleId": "com.spotify.client",
+        "spotifyAutoplay": false,
+        "windowPlacement": "none",
+        "launchDelaySeconds": 0
+      }
+    ],
+    "launchInOrder": true,
+    "schedule": {
+      "hour": 9,
+      "minute": 0,
+      "weekdays": [2, 3, 4, 5, 6],
+      "isEnabled": false
+    }
+  }
+}
+

@@ -1,0 +1,32 @@
+{
+  "identifier" : "14A7D831",
+  "nonRenewingSubscriptions" : [],
+  "products" : [
+    {
+      "displayPrice" : "24.99",
+      "familyShareable" : false,
+      "internalID" : "852AE0E2",
+      "localizations" : [
+        {
+          "description" : "Unlock Deylo Pro with a single purchase. No recurring subscription.",
+          "displayName" : "Deylo Pro",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.deylo.pro.lifetime",
+      "referenceName" : "Deylo Pro — One-Time Unlock",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_billingGracePeriodEnabled" : false,
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "LTU",
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
